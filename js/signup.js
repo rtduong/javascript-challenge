@@ -67,7 +67,6 @@ function onReady() {
             if (requiredFields[i] == 'zip') {
                 valid = validateZip(input);
             } else if (requiredFields[i] == 'birthdate') {
-                document.getElementById('birthdateMessage').innerHTML.style.display = 'inline';
                 valid = validateBirthdate(input);   
             }
         }
